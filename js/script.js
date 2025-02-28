@@ -17,7 +17,7 @@ for (const ringBtn of ringButtons) {
 
 
         const productImage = document.getElementById("product-image");
-        productImage.src = `../images/${color}.png`;
+        productImage.src = `images/${color}.png`;
 
     });
 }
