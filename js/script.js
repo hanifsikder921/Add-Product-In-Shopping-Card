@@ -126,7 +126,7 @@ document.getElementById("checkout-btn").addEventListener("click", function () {
         row.innerHTML = `
         <td class="py-2">
             <div class="flex items-center space-x-2">
-                <img class="w-15 h-12 rounded-md object-cover" src="../images/${item.imge}" alt="">
+                <img class="w-15 h-12 rounded-md object-cover" src="images/${item.imge}" alt="">
                 <span class="font-semibold">${item.title}</span>
             </div>
         </td>
